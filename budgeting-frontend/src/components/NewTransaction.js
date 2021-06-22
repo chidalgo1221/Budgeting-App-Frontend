@@ -23,12 +23,12 @@ const NewTransactionForm = (props) => {
 
     return (
         <div>
-          <h1> Add a new item</h1>
+          <h1 className="header"> Add a new item</h1>
           <form onSubmit={handleSubmit}>
             <label htmlFor="date">
               Date
             </label>
-            <input
+            <input 
               id="date"
               value={transaction.date}
               type="date"

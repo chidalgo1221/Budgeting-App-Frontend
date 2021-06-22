@@ -83,6 +83,7 @@ const App = () => {
         </Route>
       </Switch>
       </Router>
+      <img src="https://www.bootgum.com/wp-content/uploads/2018/07/Wallet_Cash_550px.gif" className="money" alt="wallet"/>
     </main>
   );
 }
